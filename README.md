@@ -1,7 +1,10 @@
+## Library_Management_System_PostgreSQL
+![Library_Management_System_PostgreSQL](https://socialify.git.ci/msizi007/Library_Management_System_PostgreSQL/image?language=1&name=1&owner=1&stargazers=1&theme=Light)
+
+
+
 #### Sprint 1: Project Setup
-
 - Create a new database LibraryDB.
-
 ```SQL
 CREATE DATABASE LibraryDB;
 ```
