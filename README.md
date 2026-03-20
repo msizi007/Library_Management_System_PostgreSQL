@@ -1,7 +1,17 @@
 ## Library_Management_System_PostgreSQL
 ![Library_Management_System_PostgreSQL](https://socialify.git.ci/msizi007/Library_Management_System_PostgreSQL/image?language=1&name=1&owner=1&stargazers=1&theme=Light)
 
+## Getting Started
+1. Clone the github project
+```bash
+git clone https://github.com/msizi007/Library_Management_System_PostgreSQL.git
+```
+2. Make sure you have installed pgAdmin 4. if you don't have it install check
+```bash
+https://www.pgadmin.org/download/pgadmin-4-windows/
+```
 
+3. Open pgAdmin 4 app and follow the sprints.
 
 #### Sprint 1: Project Setup
 - Create a new database LibraryDB.
@@ -156,7 +166,7 @@ WHERE id = 2
 
 ```sql
 SELECT * FROM Books
-WHERE published_year >= 1950
+WHERE published_year > 1950
 ```
 
 - Find all American authors.
@@ -184,7 +194,7 @@ WHERE available = true AND published_year > 1950
 
 ```sql
 SELECT * FROM Authors
-WHERE name LIKE 'George%'
+WHERE name ILIKE 'George%'
 ```
 
 - Increment the published year 1869 by 1.
