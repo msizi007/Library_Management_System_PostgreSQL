@@ -13,7 +13,9 @@ git clone https://github.com/msizi007/Library_Management_System_PostgreSQL.git
 https://www.pgadmin.org/download/pgadmin-4-windows/
 ```
 
-3. Open pgAdmin 4 app and follow the sprints.
+3. Open pgAdmin 4 app go to Servers (1) > PostgreSQL 18
+4. Right click and click create database. Give it a name LibraryDB.
+5. Open databases and right click LibraryDB and click CREATE Script. You can now follow the sprints.
 
 #### Sprint 1: Project Setup
 - Create a new database LibraryDB.
