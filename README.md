@@ -1,4 +1,6 @@
 ## Library_Management_System_PostgreSQL
+- The Library Management System is a streamlined PostgreSQL database designed to manage books, authors, and member records. It uses a relational schema to connect authors to their works while leveraging PostgreSQL arrays to efficiently track genres and borrowed items without complex join tables. Organized into "sprints," the project covers everything from table creation and data seeding to advanced CRUD operations and filtered queries.
+
 ![Library_Management_System_PostgreSQL](https://socialify.git.ci/msizi007/Library_Management_System_PostgreSQL/image?language=1&name=1&owner=1&stargazers=1&theme=Light)
 
 ## Getting Started
@@ -194,7 +196,7 @@ WHERE available = true AND published_year > 1950
 
 ```sql
 SELECT * FROM Authors
-WHERE name ILIKE 'George%'
+WHERE name ILIKE '%George%'
 ```
 
 - Increment the published year 1869 by 1.
